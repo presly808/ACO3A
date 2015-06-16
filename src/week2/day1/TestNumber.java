@@ -18,5 +18,9 @@ public class TestNumber {
       System.out.println("They are equal");
     }
 
+    MyNumber number = new MyNumber();
+
+    System.out.println(number.toString());
+
   }
 }

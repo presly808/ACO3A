@@ -11,6 +11,15 @@ public class Book {
     this.author = author;
     id = ++booksCounter;
   }
+  //  for test purpose
+  public Book(String title) {
+    this.title = title;
+  }
+//  for test purpose
+  public Book(int id) {
+    this("some");
+  }
+
 
   public String asString() {
     return "Id=" + id + ", Title=" + title + ", Author=" + author;

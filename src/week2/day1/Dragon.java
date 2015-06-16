@@ -6,7 +6,6 @@ public class Dragon {
   private int age;
 
   private int damage;
-  private int fireDamage;
 
   public Dragon(String name, String color) {
     this.name = name;
@@ -51,6 +50,10 @@ public class Dragon {
 
   public void fly() {
     System.out.println("Dragon " + name + " is flying");
+  }
+
+  public boolean isSame(Dragon dragon){
+    return name.equals(dragon.name) && color.equals(dragon.color);
   }
 
 }

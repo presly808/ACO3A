@@ -1,6 +1,6 @@
 package week2.day1;
 
-public class FireDragon {
+public class FireDragon{
   private String name;
   private String color;
   private int age;
