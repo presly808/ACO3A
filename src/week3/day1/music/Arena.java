@@ -7,5 +7,6 @@ public class Arena {
 
     ISinger singer = new Bard();
     singer.sing(shlyager);
+
   }
 }

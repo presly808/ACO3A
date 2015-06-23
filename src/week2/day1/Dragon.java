@@ -44,8 +44,8 @@ public class Dragon {
     this.damage = damage;
   }
 
-  public void attack() {
-    System.out.println("Dragon " + name + " is attacking with damage " + damage);
+  public final void attack() {
+    System.out.println("Dragon " + name + " is biting you. Damage =" + damage);
   }
 
   public void fly() {

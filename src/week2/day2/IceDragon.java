@@ -18,9 +18,9 @@ public class IceDragon extends Dragon {
     return iceDamage;
   }
 
-  public void attack(){
-    System.out.println("I can't attack");
-  }
+//  public void attack(){
+//    System.out.println("I can't attack");
+//  }
 
   public void freeze() {
     System.out.println("Freeze with damage " + iceDamage);
