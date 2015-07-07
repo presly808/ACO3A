@@ -1,0 +1,28 @@
+Ключевые слова:
+  MyArrayList, Exceptions, checked, unchecked, try catch, throw
+
+1) Дописать MyArrayList:
+    - add(int index, Object element)
+    - clear()
+    - contains(Object o)
+    - remove(Object o)
+    - set(int index, E element)
+    - subList(int fromIndex, int toIndex)
+
+2) Дописать сортировки и всю незавершенную домашку
+
+3) Написать консольную программу, иммитирующую работу блокнота:
+   Пользователь вводит имя файла (не обязательно существующего) и видит 2 опции:
+   а) прочитать из файла
+   б) записать сообщение в файл
+
+4) Написать структуру данных Очередь (FIFO) (на основе массива).
+   Описание работы - http://docs.oracle.com/javase/7/docs/api/java/util/Queue.html;
+   Перед началом реализации написать интерфейс.
+
+Дополнительные задания:
+**  Написать программу поиска файла на вашем копмьютере.
+*** Написать программу выводящую в консоль структуру директорий (начиная с указанной вами директории).
+    Пример https://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/tree.mspx?mfr=true
+
+

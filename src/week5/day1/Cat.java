@@ -1,6 +1,6 @@
 package week5.day1;
 
-public class Cat implements Cloneable{
+public class Cat {
   private String name;
   private int age;
 
