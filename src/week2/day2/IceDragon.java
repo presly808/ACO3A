@@ -22,6 +22,11 @@ public class IceDragon extends Dragon {
 //    System.out.println("I can't attack");
 //  }
 
+
+  public void fly() {
+    super.fly();
+  }
+
   public void freeze() {
     System.out.println("Freeze with damage " + iceDamage);
   }
