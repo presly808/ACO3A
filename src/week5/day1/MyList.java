@@ -9,4 +9,6 @@ public interface MyList {
   int size();
 
   Object remove(int index);
+
+  Object[] toArray();
 }

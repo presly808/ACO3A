@@ -2,7 +2,7 @@ package week5.day1;
 
 import java.util.Arrays;
 
-public class MyArrayList implements MyList{
+public class MyArrayList implements MyList {
 
   private static final int DEFAULT_CAPACITY = 16;
 
@@ -40,5 +40,12 @@ public class MyArrayList implements MyList{
   @Override
   public Object remove(int index) {
     return null;
+  }
+
+  @Override
+  public Object[] toArray() {
+    Object[] mas = new Object[size()];
+    System.arraycopy(elements,0,mas,0,size());
+    return mas;
   }
 }
